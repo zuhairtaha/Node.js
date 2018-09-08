@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1c790e51-1029-424c-817d-e0a1d2860346" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userInterfaceLibs/ContactsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/userInterfaceLibs/ContactsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userInterfaceLibs/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/userInterfaceLibs/render.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1192283932">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="JavaScript-modules-diagram/D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src" value="4" />
+          <entry key="JavaScript-modules-diagram/D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs" value="1" />
+          <entry key="JavaScript-modules-diagram/D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs;" value="1" />
+          <entry key="css" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="html" value="1" />
+          <entry key="js" value="24" />
+          <entry key="json" value="4" />
+          <entry key="puml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="24" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PlantUML file" value="2" />
+          <entry key="UML" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="335" />
+          <entry key="gitignore" value="12" />
+          <entry key="html" value="1537" />
+          <entry key="js" value="13891" />
+          <entry key="puml" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="335" />
+          <entry key="HTML" value="1632" />
+          <entry key="JavaScript" value="13796" />
+          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PlantUML file" value="34" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/libs/Teacher.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="24" column="14" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/libs/Student.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/userInterfaceLibs/render.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="824">
+              <caret line="224" selection-start-line="224" selection-end-line="224" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/userInterfaceLibs/TeachersList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="UML Class" />
+        <option value="UML Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>student</find>
+      <find>ddCourses(...</find>
+      <find>studentCoursesList</find>
+      <find>currentcourses</find>
+      <find>.modal('hide');</find>
+      <find>progress</find>
+      <find>[data</find>
+      <find>class=&quot;progress&quot;</find>
+      <find>.remove()</find>
+      <find>push</find>
+      <find>teacher</find>
+      <find>ref</find>
+      <find>alert</find>
+      <find>addStudent</find>
+      <find>img/svg</find>
+      <find>lasses.contains('delete</find>
+      <find>RemoveContactRow</find>
+      <find>teacherIndex</find>
+      <find>renderAddStudentCourses</find>
+      <find>saveTeacherStudents</find>
+      <find>saveStudentCourses</find>
+      <find>for=&quot;student-</find>
+      <find>data-row</find>
+      <find>renderStudent(</find>
+      <find>renderStudent</find>
+      <find>renderStudent(student);</find>
+      <find>renderTeacher(</find>
+      <find>removeContact(</find>
+      <find>removeTeacher</find>
+      <find>removeContact</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>contact</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/StudentContact.js" />
+        <option value="$PROJECT_DIR$/src/ContactTeacher.js" />
+        <option value="$PROJECT_DIR$/src/anu.js" />
+        <option value="$PROJECT_DIR$/src/Course.js" />
+        <option value="$PROJECT_DIR$/src/Courses.js" />
+        <option value="$PROJECT_DIR$/src/Student.js" />
+        <option value="$PROJECT_DIR$/src/Teacher.js" />
+        <option value="$PROJECT_DIR$/src/Contact.js" />
+        <option value="$PROJECT_DIR$/src/style.css" />
+        <option value="$PROJECT_DIR$/src/libs/Contact.js" />
+        <option value="$PROJECT_DIR$/src/libs/render.js" />
+        <option value="$PROJECT_DIR$/src/userInterfaceLibs/teachersList.js" />
+        <option value="$PROJECT_DIR$/src/userInterfaceLibs/contactsList.js" />
+        <option value="$PROJECT_DIR$/src/userInterfaceLibs/StudentsList.js" />
+        <option value="$PROJECT_DIR$/src/userInterfaceLibs/TeachersList.js" />
+        <option value="$PROJECT_DIR$/src/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/libs/uml-classes.puml" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/userInterfaceLibs/ContactsList.js" />
+        <option value="$PROJECT_DIR$/src/userInterfaceLibs/render.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1592" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="school" type="b2602c69:ProjectViewProjectNode" />
+              <item name="school" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="8.11.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HackYourFuture\Nodejs\myFork\week2\homework\school\src\userInterfaceLibs" />
+      <recent name="D:\HackYourFuture\Nodejs\myFork\week2\homework\school\src\libs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HackYourFuture\Nodejs\myFork\week2\homework\school\src\img" />
+      <recent name="D:\HackYourFuture\Nodejs\myFork\week2\homework\school\src\userInterfaceLibs" />
+      <recent name="D:\HackYourFuture\Nodejs\myFork\week2\homework\school\src\css" />
+      <recent name="D:\HackYourFuture\Nodejs\myFork\week2\homework\school\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.watch">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/school/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="Courses.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/libs/Courses.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/dist">
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.watch" />
+      <item itemvalue="Node.js.index.js" />
+      <item itemvalue="Node.js.index.js (1)" />
+      <item itemvalue="Node.js.Courses.js" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.index.js (1)" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.Courses.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c790e51-1029-424c-817d-e0a1d2860346" name="Default Changelist" comment="" />
+      <created>1536236634964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536236634964</updated>
+      <workItem from="1536236636252" duration="66219000" />
+      <workItem from="1536390770148" duration="259000" />
+      <workItem from="1536391059059" duration="8619000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="87296000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20693333" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24052005" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Quokka" order="8" weight="0.2654388" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="NativeScript" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2654388" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Nativescript Palette" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" weight="0.48533332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/anu.js" />
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.css" />
+    <entry file="file://$PROJECT_DIR$/src/libs/Contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5083">
+          <caret line="802" column="33" lean-forward="true" selection-start-line="802" selection-start-column="33" selection-end-line="802" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="73" column="23" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Contact.js#Contact#0;</node>
+            <node x="" y="">$PROJECT_DIR$/src/userInterfaceLibs/ContactsList.js#Contact#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/ContactsList.js#ContactsList#42;</node>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Courses.js#Courses#0;</node>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Student.js#Contact#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs/Student.js#Courses#43;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs/Student.js#Student#71;</node>
+            <node x="" y="">$PROJECT_DIR$/src/userInterfaceLibs/StudentsList.js#ContactsList#49;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/StudentsList.js#Student#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/StudentsList.js#StudentsList#87;</node>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Teacher.js#Contact#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs/Teacher.js#Courses#43;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs/Teacher.js#Teacher#71;</node>
+            <node x="" y="">$PROJECT_DIR$/src/userInterfaceLibs/TeachersList.js#ContactsList#49;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/TeachersList.js#Teacher#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/TeachersList.js#TeachersList#87;</node>
+            <node x="" y="">$PROJECT_DIR$/src/index.js#Courses#142;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/index.js#Student#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/index.js#Teacher#48;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/index.js#render#87;</node>
+            <node x="" y="">$PROJECT_DIR$/src/userInterfaceLibs/render.js#Courses#180;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/render.js#Student#139;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/render.js#StudentsList#94;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/render.js#Teacher#53;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/render.js#TeachersList#8;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="322.0" y="415.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs;">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/libs;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs;</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Contact.js#Contact#0;</node>
+            <node x="" y="">$PROJECT_DIR$/src/userInterfaceLibs/ContactsList.js#Contact#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/ContactsList.js#ContactsList#42;</node>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Courses.js#Courses#0;</node>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Student.js#Contact#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs/Student.js#Courses#43;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs/Student.js#Student#71;</node>
+            <node x="" y="">$PROJECT_DIR$/src/userInterfaceLibs/StudentsList.js#ContactsList#49;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/StudentsList.js#Student#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/StudentsList.js#StudentsList#87;</node>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Teacher.js#Contact#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs/Teacher.js#Courses#43;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs/Teacher.js#Teacher#71;</node>
+            <node x="" y="">$PROJECT_DIR$/src/userInterfaceLibs/TeachersList.js#ContactsList#49;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/TeachersList.js#Teacher#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/TeachersList.js#TeachersList#87;</node>
+            <node x="" y="">$PROJECT_DIR$/src/userInterfaceLibs/render.js#Courses#180;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/render.js#Student#139;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/render.js#StudentsList#94;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/render.js#Teacher#53;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/userInterfaceLibs/render.js#TeachersList#8;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="289.0" y="262.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/libs</OriginalElement>
+          <nodes>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Contact.js#Contact#0;</node>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Courses.js#Courses#0;</node>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Student.js#Contact#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs/Student.js#Courses#43;</node>
+            <node x="" y="">$PROJECT_DIR$/src/libs/Teacher.js#Contact#8;D:/HackYourFuture/Nodejs/myFork/week2/homework/school/src/libs/Teacher.js#Courses#43;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="111.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/uml-classes.puml" />
+    <entry file="file://$PROJECT_DIR$/src/x.puml" />
+    <entry file="file://$PROJECT_DIR$/src/libs/Student.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userInterfaceLibs/TeachersList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userInterfaceLibs/ContactsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userInterfaceLibs/StudentsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/Courses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="824">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/libs/Teacher.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userInterfaceLibs/render.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="81" column="5" lean-forward="true" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="src/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>HYF-NodeJS2</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://tahasoft.com/assets/img/favicon.ico">
+    <link rel="stylesheet" href="src/css/style.css">
+
+</head>
+<body>
+<div class="container bg-white pb-5 pt-3">
+
+
+    <!-- Add new teacher modal -->
+    <div class="modal fade" id="teacherModal" tabindex="-1" role="dialog" aria-labelledby="teacherModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="teacherModalLabel"><i class="ti-plus"></i> Add New Teacher</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="teacher-name"><i class="ti-user"></i> Teacher name</label>
+                        <input type="text" class="form-control" id="teacher-name">
+                        <small id="teacherNameHelp"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="teacher-phone"><i class="ti-mobile"></i> Teacher phone</label>
+                        <input type="text" class="form-control" id="teacher-phone">
+                        <small id="teacherMobileHelp"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="teacherCourseList"><i class="ti-book"></i> Course</label>
+                        <select class="form-control" id="teacherCourseList">
+                        </select>
+                    </div>
+
+                    <div class="text-danger" id="addNewTeacherErrors"></div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary ripple" data-dismiss="modal">Close</button>
+                    <button type="button" id="save-teacher-button" class="btn btn-primary ripple"><i
+                            class="ti-save"></i> Save
+                        teacher
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add new student modal -->
+    <div class="modal fade" id="studentModal" tabindex="-1" role="dialog" aria-labelledby="studentModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="studentModalLabel"><i class="ti-plus"></i> Add New Student</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label for="student-name"><i class="ti-user"></i> Student name</label>
+                        <input type="text" class="form-control" id="student-name">
+                        <small id="studentNameHelp"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="student-phone"><i class="ti-mobile"></i> Student phone</label>
+                        <input type="text" class="form-control" id="student-phone">
+                        <small id="studentMobileHelp"></small>
+                    </div>
+
+                    <div class="text-danger" id="addNewStudentErrors"></div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary ripple" data-dismiss="modal">Close</button>
+                    <button id="saveStudent" type="button" class="btn btn-primary ripple"><i class="ti-save"></i> Save
+                        student
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Students (for teacher) modal -->
+    <div class="modal fade" id="teacherStudentsModal" tabindex="-1" role="dialog"
+         aria-labelledby="teacherStudentsModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="teacherStudentsModalLabel"><i class="ti-plus"></i> Add teacher students
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- students list -->
+                    <div id="teacherStudentsList"></div>
+
+
+                    <div class="text-danger" id="teacherStudentsErrors"></div>
+
+                </div>
+                <div class="modal-footer flexStart">
+                    <button type="button" id="saveTeacherStudents" class="btn btn-primary ripple">
+                        <i class="ti-save"></i> Save teacher students
+                    </button>
+                    <button type="button" class="btn btn-secondary ripple" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add courses (for student) modal -->
+    <div class="modal fade" id="studentCoursesModal" tabindex="-1" role="dialog"
+         aria-labelledby="studentCoursesModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="courseLabel"><i class="ti-plus"></i> Add student courses
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <!-- students list -->
+                    <div id="studentCoursesList"></div>
+
+
+                    <div class="text-danger" id="studentCoursesListErrors"></div>
+
+                </div>
+                <div class="modal-footer flexStart">
+                    <button type="button" id="saveStudentCourses" class="btn btn-primary ripple">
+                        <i class="ti-save"></i> Save student courses
+                    </button>
+                    <button type="button" class="btn btn-secondary ripple" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6">
+
+            <!-- teachers media -->
+            <div class="media">
+                <img class="mr-3 my-icon" src="src/img/svg/teachers.svg" alt="">
+                <div class="media-body">
+                    <h1 class="mt-0">Teachers</h1>
+                    <a class="btn btn-light btn-sm ripple" href="#" data-toggle="modal" data-target="#teacherModal">
+                        <i class="ti-plus"></i> Add new teacher</a>
+                </div>
+            </div>
+
+            <table id="teachersTable" class="table table-hover mt-3">
+                <thead>
+                <tr>
+                    <th>Teacher</th>
+                    <th>Course</th>
+                    <th>Students</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+
+        </div>
+        <div class="col-md-6">
+
+            <!-- student media -->
+            <div class="media">
+                <img class="mr-3 my-icon" src="src/img/svg/students.svg" alt="">
+                <div class="media-body">
+                    <h1 class="mt-0">Students</h1>
+                    <a class="btn btn-light btn-sm ripple" href="#" data-toggle="modal" data-target="#studentModal">
+                        <i class="ti-plus"></i> Add new student</a>
+                </div>
+            </div>
+
+            <table id="studentsTable" class="table table-hover mt-3">
+                <thead>
+                <tr>
+                    <th>Student</th>
+                    <th>Courses</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+<script src="dist/index.js"></script>
+</body>
+</html>
